@@ -4,7 +4,7 @@
 <?rfc toc="yes" ?>
 <?rfc compact="yes" ?>
 <?rfc sortrefs="no" ?>
-<rfc ipr="trust200902" category="info" docName="draft-holmberg-dispatch-pani-abnf-01" updates="7315" submissionType="IETF" xml:lang="en">
+<rfc ipr="trust200902" category="info" docName="draft-holmberg-dispatch-pani-abnf-02" updates="7315" submissionType="IETF" xml:lang="en">
   <front>
     <title abbrev="PANI ABNF">
 		P-Access-Network-Info ABNF Update
@@ -52,7 +52,7 @@
             'generic-param' rule <xref target="RFC3261" pageno="false" 
             format="default"/>. However, currently the Augmented Backus-Naur Form 
             (ABNF) <xref target="RFC5234" pageno="false" format="default"/> requires 
-            new values are required to follow the 'gen-value' rule <xref target="RFC3261" 
+            new values to follow the 'gen-value' rule <xref target="RFC3261" 
             pageno="false" format="default"/>, which is more restrictive than 'generic-param'. 
             There is no justification for the restriction, and new values have already been 
             defined following the 'generic-param' rule.
@@ -65,7 +65,8 @@
         <t>
             As the P-Access-Network-Info header field is mainly used in networks defined by
             the 3rd-Generation Partnership Project (3GPP), where new values following
-            the 'generic-param' rule have been followed, the update is not seen to cause
+            the 'generic-param' rule have been defined  <xref target="TS.3GPP.24.229" 
+            pageno="false" format="default"/>, the update is not seen to cause
             backward compatibility concerns.
         </t>
     </section>
@@ -122,6 +123,12 @@ New syntax:
 		
 	<section title="Change Log">	
 		<t>[RFC EDITOR NOTE: Please remove this section when publishing]</t>
+        <t>Changes from draft-holmberg-dispatch-pani-abnf-01
+			<list style="symbols">
+                <t>- Editorial fixes based on comments from Jean Mahoney.</t>
+                <t>- Reference to 3GPP 24.229 added.</t>
+			</list>
+		</t>		
         <t>Changes from draft-holmberg-dispatch-pani-abnf-00
 			<list style="symbols">
                 <t>- Category changed to 'Informational'.</t>
@@ -136,6 +143,18 @@ New syntax:
 		<?rfc include="reference.RFC.3261"?>
         <?rfc include="reference.RFC.5234"?>
         <?rfc include="reference.RFC.7315"?>
+        <reference anchor="TS.3GPP.24.229">
+			<front> 
+				<title>
+                    IP multimedia call control protocol based on Session Initiation Protocol (SIP)
+                    and Session Description Protocol (SDP);Stage 3
+                </title>
+				<author><organization>3GPP</organization></author>
+				<date year="2015" month="September" day="25"/>
+			</front> 
+			<seriesInfo value="24.229 13.3.1" name="3GPP TS"/> 
+			<format type="HTML" target="http://www.3gpp.org/ftp/Specs/html-info/24229.htm"/> 
+		</reference>
     </references>
 </back>
 </rfc>
