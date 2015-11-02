@@ -3,9 +3,9 @@
 
 Network Working Group                                        C. Holmberg
 Internet-Draft                                                  Ericsson
-Updates: 7315 (if approved)                             October 27, 2015
+Updates: 7315 (if approved)                             November 1, 2015
 Intended status: Informational
-Expires: April 29, 2016
+Expires: May 4, 2016
 
 
                    P-Access-Network-Info ABNF Update
@@ -32,7 +32,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on April 29, 2016.
+   This Internet-Draft will expire on May 4, 2016.
 
 Copyright Notice
 
@@ -52,9 +52,9 @@ Copyright Notice
 
 
 
-Holmberg                 Expires April 29, 2016                 [Page 1]
+Holmberg                   Expires May 4, 2016                  [Page 1]
 
-Internet-Draft                  PANI ABNF                   October 2015
+Internet-Draft                  PANI ABNF                  November 2015
 
 
 Table of Contents
@@ -108,9 +108,9 @@ Table of Contents
 
 
 
-Holmberg                 Expires April 29, 2016                 [Page 2]
+Holmberg                   Expires May 4, 2016                  [Page 2]
 
-Internet-Draft                  PANI ABNF                   October 2015
+Internet-Draft                  PANI ABNF                  November 2015
 
 
    Old syntax:
@@ -164,9 +164,9 @@ Internet-Draft                  PANI ABNF                   October 2015
 
 
 
-Holmberg                 Expires April 29, 2016                 [Page 3]
+Holmberg                   Expires May 4, 2016                  [Page 3]
 
-Internet-Draft                  PANI ABNF                   October 2015
+Internet-Draft                  PANI ABNF                  November 2015
 
 
    [RFC3261]  Rosenberg, J., Schulzrinne, H., Camarillo, G., Johnston,
@@ -220,4 +220,4 @@ Author's Address
 
 
 
-Holmberg                 Expires April 29, 2016                 [Page 4]
+Holmberg                   Expires May 4, 2016                  [Page 4]
